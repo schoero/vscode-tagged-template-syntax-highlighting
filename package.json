@@ -4,6 +4,7 @@
   "displayName": "Tagged Template Syntax Highlighting",
   "description": "Syntax highlighting for common languages",
   "license": "MIT",
+  "publisher": "schoero",
   "author": "Roger Schönbächler",
   "homepage": "https://github.com/schoero/vscode-tagged-template-syntax-highlighting#readme",
   "repository": {
@@ -36,7 +37,6 @@
       }
     ]
   },
-  "main": "./src/index.json",
   "scripts": {},
   "engines": {
     "vscode": "^1.74.0"
@@ -59,6 +59,5 @@
     "tsx",
     "syntax",
     "highlighting"
-  ],
-  "publisher": "schoero"
+  ]
 }
