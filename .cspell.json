@@ -1,0 +1,14 @@
+{
+  "import": [
+    "@schoero/cspell-config"
+  ],
+  "words": [
+    "unwritten",
+    "untitle",
+    "Mergeable",
+    "tsdoc",
+    "typeguards",
+    "Renderable",
+    "renderable"
+  ]
+}

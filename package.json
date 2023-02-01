@@ -1,0 +1,64 @@
+{
+  "version": "0.0.1",
+  "name": "tagged-template-syntax-highlighting",
+  "displayName": "Tagged Template Syntax Highlighting",
+  "description": "Syntax highlighting for common languages",
+  "license": "MIT",
+  "author": "Roger Schönbächler",
+  "homepage": "https://github.com/schoero/vscode-tagged-template-syntax-highlighting#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schoero/vscode-tagged-template-syntax-highlighting.git"
+  },
+  "bugs": {
+    "url": "https://github.com/schoero/vscode-tagged-template-syntax-highlighting/issues"
+  },
+  "contributes": {
+    "grammars": [
+      {
+        "embeddedLanguages": {
+          "meta.embedded.block.css": "css",
+          "meta.embedded.block.html": "html",
+          "meta.embedded.block.js": "js",
+          "meta.embedded.block.jsx": "jsx",
+          "meta.embedded.block.markdown": "md",
+          "meta.embedded.block.ts": "ts",
+          "meta.embedded.block.tsx": "tsx"
+        },
+        "injectTo": [
+          "source.js",
+          "source.jsx",
+          "source.ts",
+          "source.tsx"
+        ],
+        "path": "./src/index.json",
+        "scopeName": "source.ts.tagged-template-syntax-highlighting"
+      }
+    ]
+  },
+  "main": "./src/index.json",
+  "scripts": {},
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "devDependencies": {
+    "@schoero/cspell-config": "^1.6.7",
+    "@schoero/eslint-config": "^1.34.6"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "keywords": [
+    "template",
+    "tagged",
+    "typescript",
+    "javascript",
+    "js",
+    "ts",
+    "jsx",
+    "tsx",
+    "syntax",
+    "highlighting"
+  ],
+  "publisher": "schoero"
+}
