@@ -32,7 +32,7 @@
           "source.ts",
           "source.tsx"
         ],
-        "path": "./src/index.json",
+        "path": "./syntaxes/index.json",
         "scopeName": "source.ts.tagged-template-syntax-highlighting"
       }
     ]
