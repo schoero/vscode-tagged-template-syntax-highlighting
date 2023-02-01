@@ -4,7 +4,7 @@
   "name": "Tagged Template Syntax Highlighting",
   "patterns": [
     {
-      "begin": "(js|Js|JS|javascript|Javascript|JavaScript|JAVASCRIPT)`",
+      "begin": "(js|Js|JS|javascript|Javascript|JavaScript|JAVASCRIPT)(`)",
       "beginCaptures": {
         "1": {
           "name": "entity.name.function.tagged-template.js"
@@ -36,7 +36,7 @@
       ]
     },
     {
-      "begin": "(ts|Ts|TS|typescript|Typescript|TypeScript|TYPESCRIPT)`",
+      "begin": "(ts|Ts|TS|typescript|Typescript|TypeScript|TYPESCRIPT)(`)",
       "beginCaptures": {
         "1": {
           "name": "entity.name.function.tagged-template.ts"
@@ -68,7 +68,7 @@
       ]
     },
     {
-      "begin": "(jsx|Jsx|JSX)`",
+      "begin": "(jsx|Jsx|JSX)(`)",
       "beginCaptures": {
         "1": {
           "name": "entity.name.function.tagged-template.jsx"
@@ -100,7 +100,7 @@
       ]
     },
     {
-      "begin": "(tsx|Tsx|TSX)`",
+      "begin": "(tsx|Tsx|TSX)(`)",
       "beginCaptures": {
         "1": {
           "name": "entity.name.function.tagged-template.tsx"
@@ -132,7 +132,7 @@
       ]
     },
     {
-      "begin": "(html|Html|HTML)`",
+      "begin": "(html|Html|HTML)(`)",
       "beginCaptures": {
         "1": {
           "name": "entity.name.function.tagged-template.html"
@@ -184,7 +184,7 @@
       ]
     },
     {
-      "begin": "s?(css|Css|CSS)`",
+      "begin": "s?(css|Css|CSS)(`)",
       "beginCaptures": {
         "1": {
           "name": "entity.name.function.tagged-template.ts"
