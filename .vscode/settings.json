@@ -1,0 +1,42 @@
+{
+
+
+  //-- ESLint
+
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[json5]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+
+
+  //-- VSCode
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.markdownlint": true,
+    "source.organizeImports": false
+  },
+  "eslint.validate": ["javascript", "typescript", "json", "jsonc", "json5", "yaml"],
+  "prettier.enable": false, // eslint-disable-next-line jsonc/sort-keys
+  "editor.formatOnSave": false,
+
+  "editor.rulers": [
+    119
+  ], // eslint-disable-next-line jsonc/sort-keys
+
+  "search.exclude": {
+    "out": true
+  }
+
+}
