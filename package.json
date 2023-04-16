@@ -21,6 +21,7 @@
           "meta.embedded.block.css": "css",
           "meta.embedded.block.html": "html",
           "meta.embedded.block.js": "js",
+          "meta.embedded.block.json": "json",
           "meta.embedded.block.jsx": "jsx",
           "meta.embedded.block.markdown": "md",
           "meta.embedded.block.ts": "ts",

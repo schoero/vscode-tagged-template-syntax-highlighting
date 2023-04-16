@@ -132,7 +132,39 @@
       ]
     },
     {
-      "begin": "(html|Html|HTML)(`)",
+      "begin": " (json|Json|JSON)(`)",
+      "beginCaptures": {
+        "1": {
+          "name": "entity.name.function.tagged-template.json"
+        },
+        "2": {
+          "name": "string.tsx"
+        },
+        "3": {
+          "name": "punctuation.definition.string.template.begin.json"
+        }
+      },
+      "contentName": "meta.embedded.block.json",
+      "end": "(`)",
+      "endCaptures": {
+        "0": {
+          "name": "string.json"
+        },
+        "1": {
+          "name": "punctuation.definition.string.template.end.json"
+        }
+      },
+      "patterns": [
+        {
+          "include": "source.ts#template-substitution-element"
+        },
+        {
+          "include": "source.json"
+        }
+      ]
+    },
+    {
+      "begin": " (html|Html|HTML)(`)",
       "beginCaptures": {
         "1": {
           "name": "entity.name.function.tagged-template.html"
