@@ -203,7 +203,7 @@
           "name": "meta.tag.other.unrecognized.html.derivative",
           "patterns": [
             {
-              "include": "source.ts#template-subsitution-element"
+              "include": "source.ts#template-substitution-element"
             },
             {
               "include": "text.html.basic#attribute"
